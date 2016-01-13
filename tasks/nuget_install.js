@@ -18,11 +18,6 @@ var dargs = require('dargs');
 module.exports = function(grunt) {
 
 	grunt.registerMultiTask('nuget_install', 'NuGet package update.', function() {
-  
-		if (process.platform !== "win32") {
-			grunt.log.warn('Only valid in windows, sorry :(.');
-			return;
-		}
 
 		var nuget = path.join(__dirname, nuget_bin);
 
@@ -56,6 +51,10 @@ module.exports = function(grunt) {
 			}
 
 			var args = [nuget, 'restore', path.dirname(src)].concat(passedArgs);
+
+			if (process.platform !== "win32") {
+				args.unshift("mono");
+			}
 
 			grunt.util.spawn({
 				cmd: args.shift(),
