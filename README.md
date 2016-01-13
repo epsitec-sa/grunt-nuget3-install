@@ -14,7 +14,7 @@ npm install grunt-nuget-install --save-dev
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-nuget-install');
+grunt.loadNpmTasks('grunt-nuget3-install');
 ```
 
 ## The "nuget_install" task
