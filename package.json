@@ -1,7 +1,7 @@
 {
   "name": "grunt-nuget3-install",
   "description": "Nuget3.x C# solution install packages.",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "main": "Gruntfile.js",
   "repository": {
     "type": "git",
