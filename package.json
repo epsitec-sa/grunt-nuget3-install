@@ -1,11 +1,11 @@
 {
-  "name": "grunt-nuget-install",
-  "description": "Nuget C# solution install packages.",
+  "name": "grunt-nuget3-install",
+  "description": "Nuget3.x C# solution install packages.",
   "version": "1.0.7",
   "main": "Gruntfile.js",
   "repository": {
     "type": "git",
-	"url": "https://github.com/kanema/grunt-nuget-install"
+	"url": "https://github.com/epsitec-sa/grunt-nuget3-install"
   },
   "engines": {
     "node": ">= 0.8.0"

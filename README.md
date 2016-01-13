@@ -1,6 +1,6 @@
-# grunt-nuget-install
+# grunt-nuget3-install
 
-> Nuget C# solution install packages.
+> Nuget (v3.3) C# solution install packages.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.2`
