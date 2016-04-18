@@ -50,7 +50,7 @@ module.exports = function(grunt) {
 				return next();
 			}
 
-			var args = [nuget, 'restore', path.dirname(src)].concat(passedArgs);
+			var args = [nuget, 'restore', src].concat(passedArgs);
 
 			if (process.platform !== "win32") {
 				args.unshift("mono");
